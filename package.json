@@ -7,6 +7,7 @@
     "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "node ./migrations/20240324121101_create_default_users.js",
+    "migrates": "node ./migrations/newProduct.js",
     "eslint": "eslint src/**"
   },
   "author": "Janson Hendryli",
@@ -21,7 +22,7 @@
     "express": "^4.18.3",
     "express-async-errors": "^3.1.1",
     "express-jwt": "^8.4.1",
-    "joi": "^17.12.2",
+    "joi": "^17.13.1",
     "joi-password": "^4.2.0",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
