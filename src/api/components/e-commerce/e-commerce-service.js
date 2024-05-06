@@ -15,7 +15,7 @@ async function getUsers() {
     results.push({
       id: user.id,
       namnameProducte: user.nameProduct,
-      $price5: user.price,
+      price: user.price,
     });
   }
 
